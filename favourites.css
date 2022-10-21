@@ -1,0 +1,110 @@
+
+/* nav bar of favourite page */
+#nav-bar{
+
+    border-bottom: none;
+}
+
+/* header box of favourite page*/
+#header-box{
+    background-color:burlywood;
+    height: 60px;
+    text-align: center;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    padding-bottom: 40px;
+    
+}
+
+/* heading of favourite page */
+#fav-heading{
+    font-size: 2.5rem;
+    font-family: Tahoma;
+
+}
+
+/* all the superheroes added to favourites  will be listed in this section */
+#favourite-superheros{
+    
+    background-color: cornflowerblue;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+/* Below this all the elements are added dynamically by javscript*/
+
+/* superhero card contains image container and label container*/
+.superhero-card{
+    
+    height: auto;
+    padding: 10px;
+    
+}
+
+/* image container contains the image */
+.img-container{
+    height: 250px;
+    width: 220px;
+    border: 2px solid whitesmoke;
+}
+
+/* image inside the image container */
+.img-container img{
+    width: 100%;
+    height: 100%;
+}
+
+/* label container contains superhero name & remove button  */
+.label{
+    
+    background-color: #01a25f;
+    width: 220px;
+    height: 90px;
+    border: 2px solid white;
+}
+
+/* name of the superhero */
+.superhero-name{
+
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Times New Roman';
+    font-weight: 800;
+    padding: 8px;
+    border-bottom: 2px solid black;
+}
+
+.superhero-name:hover{
+
+    color: aliceblue;
+    transition: 0.9s ease-out;
+}
+
+/* remove button */
+.remove-button{
+
+    background-color: #f0a016;
+    color: black;
+    height: 25px;
+    width: 70px;
+    font-size: 1rem;
+    font-family: arial;
+    font-weight: 600;
+    padding: 8px 0px 0px 10px;
+    margin: 4px 0px 0px 68px;
+    border-radius: 5px;
+    border: 1px solid black;
+    
+}
+
+/* hovering style on remove button */
+.remove-button:hover{
+    background-color: #ff0436;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+}

@@ -1,0 +1,165 @@
+
+body{
+
+  margin: auto;
+  background-color: beige;
+
+}
+
+/* navigation bar of home page*/
+
+#nav-bar{
+
+  background-color: #c75c63;
+  height: 80px;
+  padding: 0px 10px 10px 6px;
+  border-bottom: 2px solid black;
+
+}
+
+/* name of the app */
+
+#app-name{
+  
+  font-size: 2rem;
+  font-family: cursive;
+  font-style: italic;
+  float: left;
+  color:cornsilk;
+  border-top: 1px solid snow;
+  border-bottom: 1px solid snow;
+  
+}
+
+/* my favourite tag in navigation bar */
+
+#nav-bar a{
+
+  background-color: aliceblue;
+  height: 30px;
+  width: 130px;
+  padding: 6px 0px 0px 0px;
+  margin-top: 25px;
+  margin-right: 5px;
+  border-radius: 3px;
+  border: 1.8px solid black;
+  font-size: 1.2rem;
+  font-family: arial;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  float: right;
+
+}
+
+/* hovering style on my favourite tag */
+
+#nav-bar a:hover{
+
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  border: 1.8px solid white;
+
+}
+
+/* main section */
+
+#main-section{
+
+  height: 100vh;
+  width: 100%;
+  background-image: url(/assets/bg2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  opacity: 0.8;
+  
+}
+
+/* search container containing input box and search list box*/
+
+#search-container{
+
+  position: relative; 
+  width: 50%;
+  top: 10%;
+  left: 24%;
+  
+}
+
+/* input box inside search container */
+
+#input-box{
+
+  width: 100%;
+  font-size: 1.2rem;
+  padding: 15px 10px;
+  border-radius: 4px;
+  border: 2px solid white;
+
+}
+
+/* hovering effect on input box */
+
+#input-box:hover{
+
+  background-color: lightyellow;
+
+}
+
+/* search results are shown in this box */
+
+#search-list{
+
+  position: relative;
+  width: 103%;
+  max-height: 40vh;
+  margin-top: 10px;
+  overflow-y: scroll;
+
+}
+
+/* giving padding to the div's inside search list box */
+
+#search-list div {
+
+  padding: 10px;
+
+}
+
+/* each of the search item bar contains name of character & add to favourites button*/
+
+.search-item-bar{
+
+  background-color: rgb(177, 209, 237);
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 4px;
+  
+}
+
+/* styling the div's inside search item bar */
+
+.search-item-bar div{
+
+  background-color: goldenrod;
+  color: black;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: 1px solid black; 
+
+}
+
+/* hovering style */
+
+.search-item-bar div:hover{
+
+  background-color:green;
+  color: aliceblue;
+  cursor: pointer;
+
+}
+
