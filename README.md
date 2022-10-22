@@ -7,7 +7,7 @@ Website link : [superhero hunter](https://pratik-coder-9.github.io/superhero-hun
 1- This app is made using html, css & vanilla js.
 2- This app uses superhero api for fetching all the datas.
 
-# Features
+# Features of this app
 
 1- Users can find their favourite characters.
 2- Users can add characters to their favourite list.
