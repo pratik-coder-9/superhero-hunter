@@ -70,11 +70,12 @@ body{
 
   height: 100vh;
   width: 100%;
-  background-image: url("/assets/marvel_pic.jpg");
+/*   background-image: linear-gradient(135deg, #C33764 10%, #1D2671 100%); */
+  background-image: url('/assets/marvel_pic.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: scroll;
-  opacity: 0.8;
+  opacity: 1;
   
 }
 
