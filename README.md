@@ -2,7 +2,7 @@
 
 Website link : [superhero hunter](https://pratik-coder-9.github.io/superhero-hunter/index.html), click to see live preview.
 
-#Requirements
+#Requirements of this app
 
 1- This app is made using html, css & vanilla js.
 2- This app uses superhero api for fetching all the datas.
